@@ -6,6 +6,7 @@
 }
 
 .navbar a {
+  font-family: Lucida console;
   float: left;
   font-size: 16px;
   color: white;
@@ -15,6 +16,7 @@
 }
 
 .dropdown {
+  font-family: Lucida console;
   float: left;
   overflow: hidden;
 }

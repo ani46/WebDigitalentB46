@@ -1,6 +1,7 @@
 
 /* navbar */
 .navbar {
+  font-family: Lucida console;
   overflow: hidden;
   background-color: #333;
 }

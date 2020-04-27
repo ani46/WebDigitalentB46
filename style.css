@@ -1,0 +1,200 @@
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* utama */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+  color: #b3aeb5;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+    width: 50%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(29,169,204,1) 50%, rgba(0,0,0,0) 100%);
+    border: 0;
+    height: 1.5px;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: left;
+}
+
+/*---------------------------------------------------------------TOP-------------------------------------------------------------*/
+.top-wrapper {
+  height: 100vh;
+  font-weight: 500;
+  justify-content: center;
+  padding: 180px 0 100px 0;
+  background-image: url(design/hero-not-design.png);
+  background-size: cover;
+  text-shadow: 2px 4px 8px #000;
+  border-bottom: 
+}
+
+.top-wrapper h1 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.15em #1da9cc;
+    filter: blur(0.007em);
+    animation: shake 2.5s linear infinite;
+}
+
+@keyframes shake {
+    5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
+        filter: blur(0.018em);
+        transform: translateY(0.018em) rotate(0deg);
+    }
+
+    10%, 30%, 40%, 50%, 70%, 80%, 90% {
+        filter: blur(0.01em);
+        transform: translateY(-0.018em) rotate(0deg);
+    }
+
+    20%, 60% {
+        filter: blur(0.03em);
+        transform: translate(-0.018em, 0.018em) rotate(0deg);
+    }
+
+    45%, 85% {
+        filter: blur(0.03em);
+        transform: translate(0.018em, -0.018em) rotate(0deg);
+    }
+
+    100% {
+        filter: blur(0.007em);
+        transform: translate(0) rotate(-0.5deg);
+    }
+}
+
+.top-wrapper p {
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.top-wrapper span {
+  font-size: 12px;
+}
+
+/*---------------------------------CARD WRAPPER----------------------------*/
+.content-wrapper{
+  margin: auto;
+  border-radius: 5px;
+  width: 97%;
+}
+
+.content-wrapper h1{
+  text-shadow: 2px 4px 8px #000;
+  font-size:33px; 
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.content-wrapper p{
+  text-align: justify;
+  margin-bottom: 25px;
+
+    font-weight: 500;
+}
+
+.content-wrapper img{
+  border-radius: 20px;
+  box-shadow: 0px 0px 64px -19px rgba(0,0,0,0.75);
+  width: 50%;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+

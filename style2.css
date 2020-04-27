@@ -82,6 +82,10 @@ div img {
   padding:80px 80px; 
 }
 
+form img{
+  padding:1px 1px;
+}
+
 .column {
   float: left;
   width: 33.3%;

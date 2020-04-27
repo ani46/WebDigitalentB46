@@ -8,6 +8,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar a {
+  font-family: Lucida console;
   float: left;
   font-size: 16px;
   color: white;
